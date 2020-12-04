@@ -14,7 +14,6 @@ public class Solution {
 
         // If there is a negative cycle, just return all bunnies
         if (negativeCyclePresence(times)) {
-            System.out.println("Negative cycle");
             int[] answer = new int[times.length - 2];
             for (int i = 0; i < answer.length; i++) {
                 answer[i] = i;
