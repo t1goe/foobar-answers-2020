@@ -126,6 +126,7 @@ public class Solution {
         for (int i = 0; i < (1 << size); i++) {
             List<Integer> list = new ArrayList<Integer>();
 
+            //Look at all bits in the number and add them to the list if true
             for (int j = 0; j < size; j++) {
 
                 //Bitwise AND our number with the Jth bit to find if it is present or not
