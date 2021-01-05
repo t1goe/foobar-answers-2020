@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Solution {
+public class FSolution {
     static List<int[]> permutations;
 
     public static int[] solution(int[][] times, int times_limit) {
